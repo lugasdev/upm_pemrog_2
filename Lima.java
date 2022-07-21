@@ -13,8 +13,8 @@ public class Lima {
 
         System.out.println();
         System.out.print("Data yang diinput adalah : ");
-        for (int i : nilai) {
-            System.out.print(i + " ");
+        for (int i = 0; i < 5; i++) {
+            System.out.print(nilai[i] + " ");
         }
     }
 }

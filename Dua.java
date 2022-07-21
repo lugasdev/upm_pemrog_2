@@ -10,6 +10,8 @@ public class Dua {
         System.out.print("input angka: ");
         nilai = s.nextInt();
 
+        System.out.println("Angka yang dapat membagi "+ nilai +" tanpa sisa adalah: ");
+
         pembagi = 1;
         do {
             if (nilai % pembagi == 0) {
